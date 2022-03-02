@@ -5,11 +5,13 @@ body{
     padding: 0;
     box-sizing: border-box;
     background-color: hsl(0, 0%, 95%);
-    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
 .main-container{
     display: flex;
-    margin: 15vh 40vh;
     border-top-left-radius: 10px;
 }
 .card{
@@ -47,6 +49,12 @@ body{
     bottom: 120px; */
     
 }
+.btn-more:hover{
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid #fff;
+    cursor: pointer;
+}
 .card:nth-child(2){
     background-color: hsl(184, 100%, 22%);    
     border-radius: 0;
@@ -63,6 +71,7 @@ body{
 .card:nth-child(3) .btn-more{
     color:hsl(179, 100%, 13%);   
 }
+
 
 @media (max-width:600px){
     .main-container{        
