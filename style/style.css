@@ -21,6 +21,7 @@ body{
     padding: 35px;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
+    position: relative;
 }
 .card-title{
     font-family: 'Big Shoulders Display',sans-serif;
@@ -45,8 +46,10 @@ body{
     height: 8vh;
     width: 10vw;
     border: none; 
-    /* position: absolute;
-    bottom: 120px; */
+    float: left;
+    position: relative;
+    top:4.5rem;
+    left: 0px;
     
 }
 .btn-more:hover{
@@ -62,6 +65,12 @@ body{
 .card:nth-child(2) .btn-more{
     color:hsl(184, 100%, 22%);
 }
+.card:nth-child(2) .btn-more:hover{
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid #fff;
+    cursor: pointer;
+}
 .card:nth-child(3){
     background-color: hsl(179, 100%, 13%);
     border-radius: 0;
@@ -70,6 +79,12 @@ body{
 }
 .card:nth-child(3) .btn-more{
     color:hsl(179, 100%, 13%);   
+}
+.card:nth-child(3) .btn-more:hover{
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid #fff;
+    cursor: pointer;
 }
 
 
