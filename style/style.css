@@ -12,15 +12,15 @@ body{
 }
 .main-container{
     display: flex;
-    border-top-left-radius: 10px;
+    border: top left radius .1rem;
 }
 .card{
     background-color:  hsl(31, 77%, 52%);
     width: 15rem;
     height:27rem;
-    padding: 35px;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
+    padding: 4rem;
+    border-top-left-radius: .7rem;
+    border-bottom-left-radius: .7rem;
     position: relative;
 }
 .card-title{
@@ -74,8 +74,8 @@ body{
 .card:nth-child(3){
     background-color: hsl(179, 100%, 13%);
     border-radius: 0;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
+    border-top-right-radius: .7rem;
+    border-bottom-right-radius: .7rem;
 }
 .card:nth-child(3) .btn-more{
     color:hsl(179, 100%, 13%);   
@@ -91,7 +91,14 @@ body{
     position: absolute;
     top: 93%;
     left: 2%;
-    font-family: 'Big Shoulders Display',sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 500;
+}
+.attribution a{
+    color: #4e1a7e;   
+}
+.attribution a:visited{
+    color: #4e1a7e;   
 }
 @media (max-width:600px){
     .main-container{        
