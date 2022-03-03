@@ -87,7 +87,12 @@ body{
     cursor: pointer;
 }
 
-
+.attribution{
+    position: absolute;
+    top: 93%;
+    left: 2%;
+    font-family: 'Big Shoulders Display',sans-serif;
+}
 @media (max-width:600px){
     .main-container{        
         flex-direction: column;
