@@ -16,7 +16,7 @@ body{
 }
 .card{
     background-color:  hsl(31, 77%, 52%);
-    width: 12rem;
+    width: 11rem;
     height:23rem;
     padding: 4rem;
     border-top-left-radius: .7rem;
@@ -27,11 +27,11 @@ body{
     font-family: 'Big Shoulders Display',sans-serif;
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 2rem;
+    font-size: 3rem;
     color: hsl(0, 0%, 95%);
 }
 .card-description{
-    color:  hsla(0, 0%, 100%, 0.514);
+    color:  hsla(0, 0%, 100%, 0.733);
     font-family: 'Lexend Deca',sans-serif;
     font-weight: 400;
     font-size: 15px;    
