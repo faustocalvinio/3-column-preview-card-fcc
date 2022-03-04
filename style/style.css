@@ -16,9 +16,9 @@ body{
 }
 .card{
     background-color:  hsl(31, 77%, 52%);
-    width: 11rem;
-    height:23rem;
-    padding: 4rem;
+    width: 14rem;
+    height:26rem;
+    padding: 3rem;
     border-top-left-radius: .7rem;
     border-bottom-left-radius: .7rem;
     position: relative;
@@ -31,11 +31,11 @@ body{
     color: hsl(0, 0%, 95%);
 }
 .card-description{
-    color:  hsla(0, 0%, 100%, 0.733);
+    color:  hsla(0, 0%, 100%, 0.596);
     font-family: 'Lexend Deca',sans-serif;
     font-weight: 400;
-    font-size: 15px;    
-    line-height: 23px;
+    font-size: 1rem;    
+    line-height: 1.5rem;
 }
 .btn-more{
     border-radius: 30px;
@@ -49,7 +49,7 @@ body{
     float: left;
     position: relative;
     left: 0px;
-    
+    top: 4rem;
 }
 .btn-more:hover{
     color: #fff;
@@ -100,15 +100,23 @@ body{
     color: #4e1a7e;   
 }
 @media (max-width:600px){
+    
     .main-container{        
         flex-direction: column;
-        margin: 0;
+        width: 60%;
+        align-items: center;
     }
     .card{
-        width: 70%;
-        margin: auto;
+        width: 100%;
+        border-bottom-left-radius:0rem;
+        border-top-right-radius: .7rem;
     }
-    body{
-        overflow: auto;
+    .card:nth-child(3){
+        border-top-right-radius: 0rem;
+        border-bottom-left-radius: .7rem;
+
+    }
+    .attribution{
+        top: 250%;
     }
 }
