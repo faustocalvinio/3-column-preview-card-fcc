@@ -16,8 +16,8 @@ body{
 }
 .card{
     background-color:  hsl(31, 77%, 52%);
-    width: 15rem;
-    height:27rem;
+    width: 14rem;
+    height:26rem;
     padding: 3rem;
     border-top-left-radius: .7rem;
     border-bottom-left-radius: .7rem;
