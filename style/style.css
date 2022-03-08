@@ -43,7 +43,7 @@ body{
     font-family: 'Lexend Deca',sans-serif;
     font-weight: 600;
     height: 3rem;
-    width: 8rem;
+    width: 9rem;
     border: none; 
     position: absolute;
     bottom:3rem;    
@@ -96,12 +96,13 @@ body{
 .attribution a:visited{
     color: #4e1a7e;   
 }
-@media (max-width:600px){
+@media (max-width:960px){
     
     .main-container{        
         flex-direction: column;
         width: 60%;
         align-items: center;
+        max-width: 350px;
     }
     .card{
         width: 100%;
